@@ -1,0 +1,4 @@
+usr/bin/wv2-config
+usr/include/wv2
+usr/lib/libwv2.la
+usr/lib/libwv2.so
