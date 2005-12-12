@@ -1,3 +1,11 @@
+wv2 (0.2.2-5) unstable; urgency=low
+
+  * wv2-config: introduce a "--static" option to provide options suitable
+    for static linking and have "--libs" output just "-lwv2", closes: #342889
+  * Update libtool (required to fix FTBFS in GNU/k*BSD), closes: #311988
+
+ -- Isaac Clerencia <isaac@debian.org>  Mon, 12 Dec 2005 08:36:00 +0100
+
 wv2 (0.2.2-4) unstable; urgency=low
 
   +++ Changes by Isaac Clerencia:

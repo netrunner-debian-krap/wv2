@@ -3,8 +3,8 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ben Burton <bab@debian.org>, Luk Claes <luk@debian.org>, Isaac Clerencia <isaac@debian.org>
-Build-Depends: c++abi2-dev, debhelper (>= 5.0), libglib2.0-dev, libgsf-1-dev (>= 1.13.2), libxml2-dev, zlib1g-dev, pkg-config
-Standards-Version: 3.6.2
+Build-Depends: c++abi2-dev, debhelper (>> 4.0.0), libglib2.0-dev, libgsf-1-dev (>= 1.13.2), libxml2-dev, zlib1g-dev, pkg-config, dpatch
+Standards-Version: 3.6.2.1
 
 Package: libwv2-1c2
 Architecture: any
