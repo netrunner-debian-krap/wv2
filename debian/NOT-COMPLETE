@@ -1,4 +1,0 @@
-This import of the wv2 packaging does not include all files in the wv2 diff.gz.
-
-Future wv2 updaters should probably convert the config.{guess,sub} updates,
-etc. to patches, thus ensuring that all packaging is stored in this repository.
