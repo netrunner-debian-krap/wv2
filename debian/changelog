@@ -1,3 +1,10 @@
+wv2 (0.2.2-6) UNRELEASED; urgency=low
+
+  * add -DNDEBUG in the CFLAGS (no more horribly verbose debug output on
+    stderr, see wvlog.h), closes: #329109
+
+ -- Pierre Habouzit <madcoder@debian.org>  Mon, 13 Feb 2006 11:44:48 +0100
+
 wv2 (0.2.2-5) unstable; urgency=low
 
   * wv2-config: introduce a "--static" option to provide options suitable
