@@ -1,9 +1,16 @@
 wv2 (0.2.2-6) UNRELEASED; urgency=low
 
-  * add -DNDEBUG in the CFLAGS (no more horribly verbose debug output on
-    stderr, see wvlog.h), closes: #329109
+  +++ Changes by Pierre Habouzit:
 
- -- Pierre Habouzit <madcoder@debian.org>  Mon, 13 Feb 2006 11:44:48 +0100
+  * add -DNDEBUG in the CFLAGS (no more horribly verbose debug output on
+    stderr, see wvlog.h), (Closes: #329109)
+
+  +++ Changes by Christopher Martin:
+
+  * Rebuild against new libgsf-1-dev, and therefore depend on the new
+    libgsf-1-114.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Mar 2006 14:45:05 -0500
 
 wv2 (0.2.2-5) unstable; urgency=low
 
