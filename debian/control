@@ -9,7 +9,7 @@ Standards-Version: 3.7.2
 Package: libwv2-1c2
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends} ${misc:Depends}
+Depends: ${shlibs:Depends}
 Conflicts: libwv2-1
 Replaces: libwv2-1
 Description: a library for accessing Microsoft Word documents

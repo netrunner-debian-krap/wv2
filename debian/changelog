@@ -1,11 +1,20 @@
-wv2 (0.2.2-6) UNRELEASED; urgency=low
+wv2 (0.2.2-6) unstable; urgency=medium
+
+  +++ Changes by Christopher Martin:
+
+  * Add a patch which fixes CVE-2006-2197, missing boundary checks which could
+    allow the execution of arbitrary code. Urgency medium.
+
+  * Revamp patch system; should make further updates easier.
+
+  * Set Uploaders to the standard Qt/KDE team list.
 
   +++ Changes by Pierre Habouzit:
 
-  * add -DNDEBUG in the CFLAGS (no more horribly verbose debug output on
-    stderr, see wvlog.h), (Closes: #329109)
+  * Add -DNDEBUG in the CFLAGS (no more horribly verbose debug output on
+    stderr; see wvlog.h). (Closes: #329109)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Mar 2006 14:45:05 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Jun 2006 19:00:35 -0400
 
 wv2 (0.2.2-5) unstable; urgency=low
 
