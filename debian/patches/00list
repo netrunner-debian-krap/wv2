@@ -1,2 +1,4 @@
-05_relibtoolize.dpatch
-10_wv2-config_static.dpatch
+05_relibtoolize
+10_wv2-config_static
+11_wv2-array-underflow
+50_autogen
