@@ -1,3 +1,14 @@
+wv2 (0.2.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Christopher Martin:
+
+  * Drop the libwv2.la file from libwv2-dev, at the request of
+    J.H.M. Dassen (Ray). (Closes: #374332)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Jun 2006 15:28:58 -0400
+
 wv2 (0.2.2-6) unstable; urgency=medium
 
   +++ Changes by Christopher Martin:
