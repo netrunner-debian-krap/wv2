@@ -27,7 +27,7 @@ configure-stamp: patch-stamp
 	dh_testdir
 
 	# Add here commands to configure the package.
-	CFLAGS="$(OPTFLAGS)" CXXFLAGS="$(OPTFLAGS)" ./configure \
+	CFLAGS="$(OPTFLAGS)" CXXFLAGS="$(OPTFLAGS) -fpermissive" ./configure \
 	--host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) \
 	--disable-debug \
 	--prefix=/usr --mandir=\$${prefix}/share/man --infodir=\$${prefix}/share/info
