@@ -47,7 +47,7 @@ clean:
 	dh_testroot
 	rm -f build-stamp configure-stamp patch-stamp
 	$(MAKE) -f /usr/share/quilt/quilt.make unpatch
-	-$(MAKE) distclean
+	[ ! -f Makefile ] || $(MAKE) distclean
 
 	dh_clean
 
