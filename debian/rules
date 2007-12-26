@@ -20,11 +20,11 @@ ifeq (,$(findstring nostrip,$(DEB_BUILD_OPTIONS)))
 	INSTALL_PROGRAM += -s
 endif
 
-include /usr/share/dpatch/dpatch.make
-
 configure: configure-stamp
-configure-stamp: patch-stamp
+configure-stamp: 
 	dh_testdir
+
+	$(MAKE) -f /usr/share/quilt/quilt.make patch
 
 	# Add here commands to configure the package.
 	CFLAGS="$(OPTFLAGS)" CXXFLAGS="$(OPTFLAGS)" ./configure \
@@ -42,11 +42,11 @@ build-stamp: configure-stamp
 
 	touch build-stamp
 
-clean: unpatch
+clean: 
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp configure-stamp patch-stamp
-
+	$(MAKE) -f /usr/share/quilt/quilt.make unpatch
 	-$(MAKE) distclean
 
 	dh_clean

@@ -1,9 +1,3 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: No description.
-
-@DPATCH@
 --- wv2-0.2.2.orig/wv2-config.in
 +++ wv2-0.2.2.patched/wv2-config.in
 @@ -13,6 +13,7 @@

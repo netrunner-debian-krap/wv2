@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Isaac Clerencia <isaac@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends: debhelper (>> 5.0.31), libglib2.0-dev, libgsf-1-dev (>= 1.14.0), libxml2-dev, zlib1g-dev, pkg-config, dpatch
+Build-Depends: debhelper (>> 5.0.31), libglib2.0-dev, libgsf-1-dev (>= 1.14.0), libxml2-dev, zlib1g-dev, pkg-config, quilt
 Standards-Version: 3.7.3
 
 Package: libwv2-1c2
