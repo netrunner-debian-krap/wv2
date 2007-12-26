@@ -2,9 +2,11 @@ wv2 (0.2.3-2) unstable; urgency=low
 
   * Update Standards-Version to 3.7.3.
   * Update uploaders.
-  * TODO (Closes: #441614)
+  * Move patch system to quilt.
+  * Add gcc_4.3_fixes to fix problems with GCC 4.3. This patch adds a missing
+    include and hack away the #warning stuff.  (Closes: #441614)
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 10 Dec 2007 01:36:57 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 26 Dec 2007 08:32:36 +0100
 
 wv2 (0.2.3-1) unstable; urgency=low
 
