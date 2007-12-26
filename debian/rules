@@ -61,11 +61,8 @@ install: build
 
 	dh_movefiles
 
-# Build architecture-independent files here.
 binary-indep: build install
-# We have nothing to do by default.
 
-# Build architecture-dependent files here.
 binary-arch: build install
 	dh_testdir
 	dh_testroot
