@@ -1,9 +1,11 @@
-wv2 (0.2.3-3) UNRELEASED; urgency=low
+wv2 (0.3.1-1) UNRELEASED; urgency=low
 
+  * New upstream release.
+  * Remove patch gcc_4.3_fixes, merged upstream.
   * Update to debhelper 6. 
   * Add Homepage field.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 20 Jan 2008 22:33:07 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 24 Apr 2009 20:58:00 +0200
 
 wv2 (0.2.3-2) unstable; urgency=low
 
