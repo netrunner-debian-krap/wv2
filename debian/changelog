@@ -1,11 +1,15 @@
 wv2 (0.3.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
-  * Remove patch gcc_4.3_fixes, merged upstream.
+  * Remove: patch gcc_4.3_fixes, merged upstream.
+  * Remove deprecated libstdc++-dev, it is being updated in build-essential.
+  * Rename libwv2-1c2 -> libwv2-2.
   * Update to debhelper 6. 
   * Add Homepage field.
+  * Update to Standards-Version: 3.8.2, no changes required.
+  * Update uploaders, remove Isaac.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 24 Apr 2009 20:58:00 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Aug 2009 23:52:38 +0200
 
 wv2 (0.2.3-2) unstable; urgency=low
 
