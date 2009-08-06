@@ -24,8 +24,6 @@ configure: configure-stamp
 configure-stamp: 
 	dh_testdir
 
-	$(MAKE) -f /usr/share/quilt/quilt.make patch
-
 	# Add here commands to configure the package.
 	CFLAGS="$(OPTFLAGS)" CXXFLAGS="$(OPTFLAGS)" ./configure \
 	--host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) \
@@ -46,7 +44,6 @@ clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp configure-stamp patch-stamp
-	$(MAKE) -f /usr/share/quilt/quilt.make unpatch
 	[ ! -f Makefile ] || $(MAKE) distclean
 
 	dh_clean
