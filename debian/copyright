@@ -3,13 +3,29 @@ Sat,  7 Jun 2003 15:30:53 +1000.
 
 It was downloaded from: http://wvware.sourceforge.net
 
-Upstream Authors: Shaheed Haque <srhaque@iee.org>
-                  Werner Trobin <trobin@kde.org>
-                  David Faure <faure@kde.org>
+Upstream Authors: Copyright 2003 Shaheed Haque <srhaque@iee.org>
+                  Copyright 2003-2006 Werner Trobin <trobin@kde.org>
+                  Copyright 2003 David Faure <faure@kde.org>
+                  Copyright 1999-2000 Harri Porten <porten@kde.org>
+                  Copyright 2009 Benjamin Cail <cricketc@gmail.com>
 
-You are free to distribute this software under the terms of
-the GNU Lesser General Public License.
+License:
+
+    This library is free software; you can redistribute it and/or
+	modify it under the terms of the GNU Library General Public
+	License as published by the Free Software Foundation; 
+	version 2 of the License.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public
+    License along with this library; if not, write to the Free Software 
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301 USA
+
 
 On Debian systems, the complete text of the GNU Lesser General Public
-License can be found in the file /usr/share/common-licenses/LGPL.
+License can be found in the file /usr/share/common-licenses/LGPL-2
 

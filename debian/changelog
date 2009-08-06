@@ -1,11 +1,15 @@
 wv2 (0.3.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
-  * Remove: patch gcc_4.3_fixes, merged upstream.
+  * Remove patches: 
+    - gcc_4.3_fixes, merged upstream. 
+    - 05_relibtoolize.dpatch, 50_autogen.dpatch, 10_wv2-config_static.dpatch,
+      obsolete.
   * Remove deprecated libstdc++-dev, it is being updated in build-essential.
   * Rename libwv2-1c2 -> libwv2-2.
   * Update to debhelper 6. 
   * Add Homepage field.
+  * Update debian/copyright.
   * Update to Standards-Version: 3.8.2, no changes required.
   * Update uploaders, remove Isaac.
 
