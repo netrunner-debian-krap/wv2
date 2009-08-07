@@ -1,0 +1,13 @@
+
+The documentation of wv2 (*) has been removed from the tarball since their
+license was not unknown. If you are interested on this, please fetch the
+original source tarball from:
+
+http://sourceforge.net/projects/wvware/files/
+
+(*) Exaclty, the following files:
+doc/ folder
+src/generator/generator_wword{6,8}.htm files.
+
+
+
