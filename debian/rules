@@ -67,12 +67,12 @@ binary-arch: build install
 	dh_installdocs
 
 	# Fix up the documentation directory for the -dev package.
-	rm -rf `find debian/libwv2-dev/usr/share/doc/libwv2-dev/doc \
-		-name CVS -type d`
-	rm -f `find debian/libwv2-dev/usr/share/doc/libwv2-dev/doc \
-		-name .cvsignore -type f`
-	mv debian/libwv2-dev/usr/share/doc/libwv2-dev/doc \
-		debian/libwv2-dev/usr/share/doc/libwv2-dev/design
+#	rm -rf `find debian/libwv2-dev/usr/share/doc/libwv2-dev/doc \
+#		-name CVS -type d`
+#	rm -f `find debian/libwv2-dev/usr/share/doc/libwv2-dev/doc \
+#		-name .cvsignore -type f`
+#	mv debian/libwv2-dev/usr/share/doc/libwv2-dev/doc \
+#		debian/libwv2-dev/usr/share/doc/libwv2-dev/design
 
 	dh_installexamples
 	dh_installman
