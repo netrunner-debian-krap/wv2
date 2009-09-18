@@ -10,8 +10,9 @@ wv2 (0.4.0.dfsg-0.1) UNRELEASED; urgency=low
   * Add dependency on ${misc:Depends}, given debhelper is used.
   * Bump Standards-Version to 3.8.3, no changes required.
   * Remove duplicate section from binary libwv2-3 in control.
+  * Update copyright.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 18 Sep 2009 16:45:19 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 18 Sep 2009 16:47:42 +0200
 
 wv2 (0.3.1.dfsg-1) unstable; urgency=low
 
