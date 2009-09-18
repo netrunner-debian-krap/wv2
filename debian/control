@@ -9,7 +9,6 @@ Homepage: http://wvware.sourceforge.net
 
 Package: libwv2-3
 Architecture: any
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libwv2-1
 Replaces: libwv2-1
