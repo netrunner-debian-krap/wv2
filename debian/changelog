@@ -8,8 +8,9 @@ wv2 (0.4.0.dfsg-0.1) UNRELEASED; urgency=low
   * Switch to dh, and bump debhelper requirements & compatibility to 7.
   * wv2's build system is cmake now, so build-depend on it.
   * Add dependency on ${misc:Depends}, given debhelper is used.
+  * Bump Standards-Version to 3.8.3, no changes required.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 18 Sep 2009 16:42:51 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 18 Sep 2009 16:44:23 +0200
 
 wv2 (0.3.1.dfsg-1) unstable; urgency=low
 
