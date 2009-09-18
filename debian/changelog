@@ -1,3 +1,13 @@
+wv2 (0.4.0.dfsg-0.1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Pino Toscano:
+
+  * Bump SONAME.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 18 Sep 2009 16:28:19 +0200
+
 wv2 (0.3.1.dfsg-1) unstable; urgency=low
 
   * Repack tarball and remove unlicesed documentation. Document this in
