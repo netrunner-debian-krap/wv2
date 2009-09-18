@@ -5,8 +5,9 @@ wv2 (0.4.0.dfsg-0.1) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Bump SONAME.
+  * Switch to dh, and bump debhelper requirements & compatibility to 7.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 18 Sep 2009 16:28:19 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 18 Sep 2009 16:33:33 +0200
 
 wv2 (0.3.1.dfsg-1) unstable; urgency=low
 
