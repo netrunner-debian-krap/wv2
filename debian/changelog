@@ -1,3 +1,11 @@
+wv2 (0.4.2.dfsg.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Switch to 3.0 (quilt) source format. No changes required further adding
+    debian/source/format.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 14 Nov 2009 00:28:32 +0100
+
 wv2 (0.4.1.dfsg-1) unstable; urgency=low
 
   * New upstream release. "Another release, another bump soname".
